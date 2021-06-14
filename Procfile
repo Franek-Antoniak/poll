@@ -1,1 +1,0 @@
-web: java -jar target/poll-1.0.jar
