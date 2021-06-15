@@ -40,7 +40,6 @@
   <div class="container px-4 px-lg-5 my-5">
     <div class="text-center text-white">
       <h1 class="display-4 fw-bolder">Załaduj swój obraz</h1>
-      <p class="lead fw-normal text-white-50 mb-0">Pamiętaj możesz to zrobic tylko raz!</p>
     </div>
   </div>
 </header>
@@ -63,7 +62,7 @@
             <!-- Product actions-->
             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
               <div class="text-center">
-                <input class="btn btn-outline-dark mt-auto" type="button" id="imageSubmit" value="Wyślij Obraz" onclick="delayUrlLoad('/', 1500)"/>
+                <input class="btn btn-outline-dark mt-auto" type="button" id="imageSubmit" value="Wyślij Obraz"/>
               </div>
             </div>
         </div>
@@ -79,13 +78,5 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
 <!-- Core theme JS-->
 <script src="/js/sender.js"></script>
-<script>
-    function delayUrlLoad(url, mils)
-    {
-        setTimeout(function() {
-            window.location.href = url;
-        }, mils)
-    }
-</script>
 </body>
 </html>
