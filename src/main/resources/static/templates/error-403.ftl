@@ -13,6 +13,15 @@
     <link rel="icon" type="image/x-icon" href="/assets/homepage.ico" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="/css/homepage.css" rel="stylesheet" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C01EQQP1PX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-C01EQQP1PX');
+    </script>
 </head>
 <body>
 <style>
