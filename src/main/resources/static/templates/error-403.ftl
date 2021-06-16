@@ -14,13 +14,13 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="/css/homepage.css" rel="stylesheet" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C01EQQP1PX"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5PGH8YYN7C"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-C01EQQP1PX');
+      gtag('config', 'G-5PGH8YYN7C');
     </script>
 </head>
 <body>
